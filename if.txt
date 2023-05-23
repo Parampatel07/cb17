@@ -49,12 +49,14 @@ relational operator
 >= greater than equal to 
 
 
+Logical operator
+----------------------------------
 && - and 
 || - or 
 
 
 
-a >= b  || b == c
+a==10 || b == 20 c = 30
 
 switch case
 ------------------------------

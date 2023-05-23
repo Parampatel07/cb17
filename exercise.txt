@@ -8,7 +8,14 @@ height = 5.7
 5) write a program to accept height from user as float value(foot.inch). display message "you are short" if height is less then 5 foot 
 height = 5.7
 
-
 6) write a program to accept month number from user. display message "this month has 28 or 29 days" if month if february
 
 7) Write a programe to findout wether the given year is millieum year or not 
+
+8) Write a programe to findout total electricty bill for user take unit as input 
+-> unit = 150
+unit 
+less than 100 = 1
+100 - 200 = 2
+200 - 300 = 3
+more than 300 = 5
