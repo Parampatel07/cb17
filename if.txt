@@ -34,6 +34,18 @@ else if (condition)
 {
      ..lines of code 
 }
+else if (condition)
+{
+     ..lines of code 
+}
+else if (condition)
+{
+     ..lines of code 
+}
+else if (condition)
+{
+     ..lines of code 
+}
 else
 {
      ..lines of code 
