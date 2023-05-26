@@ -26,3 +26,4 @@ birth_month
 https://i.pinimg.com/564x/65/40/25/65402574dfca971f29325411765931bb.jpg
 https://in.pinterest.com/pin/774124926303068/
 
+Write a programe to findout Wether the user given alphabet is vowel or not using swith case 

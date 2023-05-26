@@ -6,7 +6,6 @@ void main()
 
      printf("Enter your month ");
      scanf("%d", &month);
-
      if (month <= 12)
      {
           if (month >= 1)
