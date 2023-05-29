@@ -29,10 +29,20 @@ https://in.pinterest.com/pin/774124926303068/
 Write a programe to findout Wether the user given alphabet is vowel or not using swith case
 
 
-// 1 , 4 , 9 , 16 , 25 ,36 ..... 10000
+// 1 , 4 , 9 , 16 , 25 ,36 ..... 10000 
 
-// 1 8 27 64 .... 10000
+// 1 8 27 64 .... 10000 -> 
 
 // 2, 1, 3, 4, 7, 11, 18, 29, 47, 76, 123 .... 300
 
 // 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55 ... 1000
+
+
+//https://i1.faceprep.in/fp/articles/img/46684_1580817324.png
+printf("*");
+printf("*");
+printf("*");
+printf("*");
+printf("*");
+print(" ");
+print("\n");

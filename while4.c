@@ -1,8 +1,23 @@
-// Write a programe to print following pattern 
+// Write a programe to print following pattern
 // 1 , 4 , 9 , 16 , 25 ,36 ..... 10000
-
-// 1 8 27 64 .... 10000
-
-// 2, 1, 3, 4, 7, 11, 18, 29, 47, 76, 123 .... 300
-
-// 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55 ... 1000
+#include <stdio.h>
+void main()
+{
+     int number = 1, answer = 0;
+     printf("1 ");
+     while(answer < 9801)
+     {
+          number = number + 1;
+          answer = number * number;
+          printf("%d ", answer);
+     }
+     // number = number + 1;
+     // answer = number * number;
+     // printf("%d ",answer);
+     // number = number + 1;
+     // answer = number * number;
+     // printf("%d ",answer);
+     // number = number + 1;
+     // answer = number * number;
+     // printf("%d ",answer);
+}
