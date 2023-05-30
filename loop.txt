@@ -47,7 +47,6 @@ syntax
         line 1  
         line 2
         .......
-
     }
     example 
     for(count=0;count<5;count++)
