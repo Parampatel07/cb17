@@ -1,5 +1,5 @@
 // Write a programe to print full pyramid
-// https://i1.faceprep.in/fp/articles/img/46684 1580817324.png
+// https://i1.faceprep.in/fp/articles/img/466841580817324.png
 #include <stdio.h>
 void main()
 {

@@ -3,14 +3,15 @@
 #include <stdio.h>
 void main()
 {
-     int count = 0,flash=0;
+     int count = 0,flash=0,temp=0;
      for(flash=0;flash<6;flash++)
      {
           for (count = 1; count <= flash; count++)
           {
-               printf("%d ",count);
+               printf("%d ",temp);
           }
           printf("\n");
+          temp++;
      }
      // for (count = 0; count < 3; count++)
      // {
