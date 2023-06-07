@@ -13,75 +13,90 @@ void main()
 {
      int option;
      int number = 1, answer;
-     printf("\nSelect any one patter to print ");
-     printf("\nEnter 1 for square ");
-     printf("\nEnter 2 for cube");
-     printf("\nEnter 3 for lucas ");
-     printf("\nEnter 4 for triangular number ");
-     printf("\nEnter 5 for pentagonal number ");
-     scanf("%d", &option);
+     do{
+          printf("\nSelect any one patter to print ");
+          printf("\nEnter 1 for square ");
+          printf("\nEnter 2 for cube");
+          printf("\nEnter 3 for lucas ");
+          printf("\nEnter 4 for triangular number ");
+          printf("\nEnter 5 for pentagonal number ");
+          scanf("%d", &option);
 
-     if (option == 1)
-     {
-          // sqaure
-          number = 1;
-          do
+          if (option == 1)
           {
-               answer = number * number;
-               printf("%d ", answer);
-               number++;
-          } while (answer < 9801);
-          // answer = number * number;
-          // printf("%d ",answer);
-          // number++;
-          // answer = number * number;
-          // printf("%d ",answer);
-     }
-     else if (option == 2)
-     {
-          number = 1;
-          answer = 1;
-          do
+               // sqaure
+               number = 1;
+               do
+               {
+                    answer = number * number;
+                    printf("%d ", answer);
+                    number++;
+               } while (answer < 9801);
+
+          }
+          else if (option == 2)
           {
+               number = 1;
+               answer = 1;
+               do
+               {
+                    printf("%d ", answer);
+                    number++;
+                    answer = number * number * number;
+               } while (answer < 10000);
+          }
+          else if (option == 3)
+          {
+               int first = 2, second = 1;
+               answer = 0;
+               printf("%d %d ", first, second); // 2  1
+               answer = second + first;         // 3
+               first = answer;
+               do
+               {
+                    printf("%d ", answer);
+                    answer = answer + second; // 4
+                    second = answer;
+                    printf("%d ", answer);
+                    answer = answer + first; // 7
+                    first = answer;
+               } while (answer < 300);
+          }
+          else if (option == 4)
+          {
+               number = 0;
+               answer = 1;
+               int temp = 2;
+               printf("%d ", number);
+               answer = answer + number;
+               do
+               {
+                    printf("%d ", answer);
+                    answer = answer + temp;
+                    temp = temp + 1;
+               } while (answer < 1000);
+          }
+          else if (option == 5)
+          {
+               number = 1;
+               int flash = 4;
+               answer = 0;
+               // answer = number;
+               printf("%d ", number);
+               answer = number + flash;
                printf("%d ", answer);
-               number++;
-               answer = number * number * number;
-          } while (answer < 10000);
-          // printf("%d ",answer);
-          // number++;
-          // answer = number * number * number;
-          // printf("%d ",answer);
-          // number++;
-          // answer = number * number * number;
-          // printf("%d ",answer);
-     }
-     else if (option == 3)
-     {
-          int first = 2, second = 1;
-          answer = 0;
-          printf("%d %d ", first, second); // 2  1
-          answer = second + first;//3
-          first = answer;
-          printf("%d ", answer);
-          answer = answer + second;//4
-          second =answer;
-          printf("%d ", answer);
-          answer = answer + first;//7
-          printf("%d ", answer);
-          answer = answer + second;
-          printf("%d ", answer);
-     }
-     else if (option == 4)
-     {
-          number = 0;
-          answer = 1;
-          int temp = 2;
-          printf("%d ", number);
-          answer = answer + number;
-          do{
-               printf("%d ", answer);
-               answer = answer + temp;
-               temp = temp + 1;
-          }while(answer < 1000);
-     }
+               do
+               {
+                    flash = flash + 3;
+                    answer = answer + flash;
+                    printf("%d ", answer);
+               } while (answer < 287);
+               // flash = flash + 3;
+               // answer = answer + flash;
+               // printf("%d ",answer);
+          }
+          printf("Do you want to continue ?\nPress 0 for exit \nPress any other number to continue ");
+          scanf("%d", &option);
+     }while(option != 0);
+     printf("Goodbyee..");
 }

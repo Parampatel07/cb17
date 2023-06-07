@@ -72,3 +72,9 @@ Write a programe to create a pattern printer give option for following
 // 2, 1, 3, 4, 7, 11, 18, 29, 47, 76, 123 .... 300 - > lucas series
 
 // 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55 ... 1000 - > triangular number 
+
+array 
+-------------------------------
+Write a programe to take 5 cricketer run and find total of all also find average 
+
+Write a programe to take 5 player score for football (goals) and find highest scorer 
