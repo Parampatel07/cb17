@@ -80,3 +80,5 @@ Write a programe to take 5 cricketer run and find total of all also find average
 Write a programe to take 5 player score for football (goals) and find highest scorer 
 
 Write a programe to take 5 player score for football (goals) and find lowest scorer
+
+Write a programe to take 5 players run for 5 match find total 

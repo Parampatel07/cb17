@@ -17,14 +17,10 @@ void main()
                break;
           }
      }
-
+     printf("the value of count is %d ",count);
      printf("your name is ");
-     for (count = 0; 25 > count; count++)
+     for (count = count; count>=0; count--)
      {
-          if (names[count] == '\n')
-          {
-               break;
-          }
           printf("%c", names[count]);
      }
      // scanf("%c",&names[1]);
