@@ -82,3 +82,10 @@ Write a programe to take 5 player score for football (goals) and find highest sc
 Write a programe to take 5 player score for football (goals) and find lowest scorer
 
 Write a programe to take 5 players run for 5 match find total 
+
+function
+--------------------------------
+Write a programe to calculate bmi accept height in foot inch and also display user category 
+https://static.vecteezy.com/system/resources/previews/005/905/467/original/bmi-classification-chart-measurement-man-set-male-body-mass-index-infographic-with-weight-status-from-underweight-to-severely-obese-medical-body-mass-control-graph-eps-illustration-vector.jpg
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F5905467-bmi-classification-chart-measurement-man-set-male-body-mass-index-infographic-with-weight-status-from-underweight-to-severely-obese-medical-body-mass-control-graph-vector-eps-illustration&psig=AOvVaw10M_QGEZEWX38YvtL9s4mP&ust=1686800732888000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjcwMbswf8CFQAAAAAdAAAAABAE
