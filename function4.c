@@ -5,7 +5,6 @@ int getMulti(int num1,int num2)
      int answer = num1 * num2;
      return answer;
 }
-
 void main()
 {
      int num1,num2,temp;
@@ -17,5 +16,4 @@ void main()
      temp = getMulti(num1,num2);
      printf("the value of temp is %d ",temp);
      // getMulti(10,20);
-
 }
