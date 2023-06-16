@@ -24,6 +24,5 @@ struct time
     int minute;
 };
 
-
 we can create array inside structure. which is called array within structure.
 we can create array of structure. which is called array of structure.
